@@ -67,10 +67,11 @@ var wr = function(a) {
 // END
 /* eslint-enable */
 
-var config = new Configstore('google-translate-api');
+// var config = new Configstore('google-translate-api');
 
 var window = {
-    TKK: config.get('TKK') || '0'
+    // TKK: config.get('TKK') || '0'
+    TKK: '0'
 };
 
 function updateTKK() {
@@ -88,7 +89,7 @@ function updateTKK() {
                     /* eslint-disable no-undef */
                     if (typeof TKK !== 'undefined') {
                         window.TKK = TKK;
-                        config.set('TKK', TKK);
+                        // config.set('TKK', TKK);
                     }
                     /* eslint-enable no-undef */
                 }
