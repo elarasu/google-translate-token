@@ -6,7 +6,7 @@
  */
 
 var got = require('got');
-var Configstore = require('configstore');
+// var Configstore = require('configstore');
 
 /* eslint-disable */
 // BEGIN
